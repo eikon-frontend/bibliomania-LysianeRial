@@ -1,4 +1,6 @@
 /* 💡 Configuration des styles du sélecteur de note */
+
+
 :root {
   --gl-star-empty: url(../img/star-empty.svg);
   --gl-star-full: url(../img/star-full.svg);
@@ -11,5 +13,157 @@
   --gl-tooltip-padding: 0.5em 1em;
   --gl-tooltip-size: 6px;
 }
+
+body {
+  background-color: #21272e;
+  color: white;
+  max-width: 390px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.saccage {
+  max-width: 390px;
+}
+
+.croix {
+  max-width: 50px;
+  margin-left: 330px;
+}
+
+.fleche {
+  max-width: 30px;
+}
+
+.fleche-one {
+  margin-right: 330px;
+}
+
+.fleche-two {
+  margin-left: 330px;
+}
+
+.star {
+  max-width: 20px;
+}
+
+.infos {
+  background-color: #475565;
+  max-width: 360px;
+  margin: auto;
+  font-family: ;
+}
+
+.titre {
+  margin-bottom: 10px;
+  padding-top: 3px;
+  padding-left: 5px;
+}
+
+.auteur {
+  margin-bottom: 10px;
+  padding-top: 3px;
+  padding-left: 5px;
+}
+
+.date {
+  margin-bottom: 10px;
+  padding-top: 3px;
+  padding-left: 5px;
+}
+
+.genre {
+  margin-bottom: 10px;
+  padding-top: 3px;
+  padding-left: 5px;
+}
+
+.description {
+  background-color: #475565;
+  max-width: 390;
+}
+
+h1 {
+  max-width: 360px;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.texte {
+  max-width: 360px;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.Star {
+  margin-left: 15px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.photo-profil-one {
+  max-width: 50px;
+  padding-top: 10px;
+}
+
+.commentaires {
+  background-color: #475565;
+  max-width: 360px;
+  margin: auto;
+  margin-top: 60px;
+  border-radius: 5%;
+  padding-left: 15px;
+}
+
+.photo-profil-two {
+  max-width: 40px;
+  padding-left: 5px;
+}
+
+.like {
+  max-width: 20px;
+}
+
+.very-small {
+  color: #a4aab1;
+}
+
+.small {
+  color: #21262c;
+}
+
+.utilisateur {
+  max-width: 40px;
+}
+
+.maison {
+  max-width: 40px;
+}
+
+.loupe {
+  max-width: 40px;
+}
+
+.burger {
+  max-width: 40px;
+  background-color: #2d3540;
+  padding: 15px 25px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ligne-de-bas {
+  max-width: 200px;
+  display: flex;
+  margin: auto;
+  padding-top: 15px;
+}
+
+
+
 
 /* 🦊 Vos styles ici */
