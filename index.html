@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bibliomania</title>
-    <link rel="stylesheet" href="scripts/star-rating.min.css" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <!-- 🦊 Votre page ici -->
 
-    <!-- 💡 Décommentez cette balise et placez-la dans votre code afin d'afficher le système de note Javascript -->
-    <!-- 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bibliomania</title>
+  <link rel="stylesheet" href="scripts/star-rating.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- 🦊 Votre page ici -->
+
+  <!-- 💡 Décommentez cette balise et placez-la dans votre code afin d'afficher le système de note Javascript -->
+  <!-- 
         <select class="star-rating" aria-label="Note utilisateur">
             <option value="">Select a rating</option>
             <option value="5">Excellent</option>
@@ -21,12 +23,89 @@
             <option value="1">Terrible</option>
         </select>
     -->
-    <!-- 💡 Script pour gérer le rating d'un livre -->
-    <script src="scripts/star-rating.min.js"></script>
-    <script>
-      var stars = new StarRating(".star-rating", {
-        tooltip: "Choisissez votre note",
-      });
-    </script>
-  </body>
+  <!-- 💡 Script pour gérer le rating d'un livre -->
+  <script src="scripts/star-rating.min.js"></script>
+  <script>
+    var stars = new StarRating(".star-rating", {
+      tooltip: "Choisissez votre note",
+    });
+  </script>
+
+  <img class="saccage" src="img/couvertures/saccage_couverture.jpg">
+  <img class="croix" src="img/croix.png">
+  <img class="fleche fleche-one" src="img/fleche.png">
+  <img class="fleche fleche-two" src="img/Flèche2.png">
+
+  <p class="infos titre">TITRE : Saccage</p>
+  <p class="infos auteur">AUTEUR/RICE : Frederik Peeters</p>
+  <p class="infos genre ">GENRE : Roman Graphique</p>
+  <p class="infos date">DATE DE PUBLICATION : 2019</p>
+
+  <div class="Star">
+    <img class="star" src="img/star2.png">
+    <img class="star" src="img/star2.png">
+    <img class="star" src="img/star2.png">
+    <img class="star" src="img/star1.png">
+    <img class="star" src="img/star1.png">
+  </div>
+
+  <div class="description">
+    <h1>Description</h1>
+    <p class="texte">Frederik Peeters est un animal insaisissable, et comme le prouve son parcours, jamais où on
+      pourrait
+      l’attendre; Saccage, son nouveau livre, le démontre une fois encore. Saccage, voilà bien un ouvrage qui défie
+      toute
+      forme de définition, de classification: entre livre d’images et bande dessinée, Saccage dépeint une épopée pleine
+      de
+      tourments, celle d’un homme (prophète? héraut de l’apocalypse?) qui traverse un monde dément, chaotique, baroque,
+      où
+      toute la folie – et l’histoire – de l’homme semble se télescoper, se mélanger, pour former un magma empli de
+      visions
+      fantasmagoriques, juxtaposant alors écho d’un enfer bien trop terrestre, jeu de références, et fresque
+      prémonitoire. Fable d’anticipation, allégorie hallucinée, Saccage se lit comme un poème graphique en forme de
+      constat pour le moins amer, et présente un monde en pleine déliquescence, sidérant comme un massacre, effrayant
+      comme un cauchemar – mais Saccage est bien plus qu’un délire visuel, c’est une véritable œuvre coup-de-poing,
+      incroyablement habitée par un artiste au sommet de son art, et les dessins sans texte (mais pas «muets»!) de
+      Frederik Peeters donnent alors bien plus à lire que nombre de romans ou d’essais. 
+    </p>
+  </div>
+
+  <div class="commentaires">
+    <div class="commentaire-one">
+      <img class="photo-profil-one" src="img/anonyme.png">
+      <small class="small">user67143998</small>
+      <p>Très belle histoire !</p>
+      <small class="very-small">3h</small>
+      <small class="very-small">Répondre</small>
+      <img class="like" src="img/Like 1.png">
+      <img class="like" src="img/Dislike 1.png">
+      <small class="very-small">2</small>
+    </div>
+
+    <div class="commentaire-two">
+      <img class="photo-profil-two" src="img/photo-profil.png">
+      <small class="small">Marie_Anne74</small>
+      <p>La fin de l’histoire est superbe !</p>
+      <small class="very-small">1j</small>
+      <small class="very-small">Répondre</small>
+      <img class="like" src="img/Like 1.png">
+      <img class="like" src="img/Dislike 1.png">
+      <small class="very-small">10</small>
+      <small class="very-small">1</small>
+    </div>
+  </div>
+
+  <img class="ligne-de-bas" src="img/Ligne du bas.svg">
+
+  <div class="footer">
+    <img class="maison" src="img/accueil2 3.svg">
+    <img class="loupe" src="img/loupe2 4.svg">
+    <img class="burger" src="img/burger-bar2 3.svg">
+    <img class="utilisateur" src="img/utilisateur2 3.svg">
+  </div>
+
+
+
+</body>
+
 </html>
